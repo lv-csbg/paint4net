@@ -37,10 +37,11 @@ the item of interest. Additionally Paint4Net functionality can be used to: (1) g
 and dead end metabolites of the visualized part of the network, (2) exclude (filter) particular metabolites from
 representation, (3) find isolated parts of a network and (4) find running cycles when all the substrates are cut
 down. Layout pictures can be saved in various formats and easily distributed.
+
+
 Two functions with their arguments are used in the Paint4Net to define the scope of visualization:
 (1) [involvedMets, deadEnds] = draw by rxn(model, rxns, drawMap, direction, initialMet, excludeMets,
-flux) – to define scope by a list of reactions and (2) [directionRxns, involvedMets, deadEnds] = drawby met(model, metAbbr, drawMap, radius, direction, excludeMets, flux) – to define the metabolite of
-interest to see linked reactions within radius of, for instance, 2 reactions. The function draw_by_rxn has input arguments: (1) model – stands for stoichiometric reconstruction or model with constraints, (2) rxns –
+flux) – to define scope by a list of reactions and (2) [directionRxns, involvedMets, deadEnds] = drawby met(model, metAbbr, drawMap, radius, direction, excludeMets, flux) – to define the metabolite of interest to see linked reactions within radius of, for instance, 2 reactions. The function draw_by_rxn has input arguments: (1) model – stands for stoichiometric reconstruction or model with constraints, (2) rxns –
 stands for a list of the reactions of interest for analysis, (3) drawMap (optional) – stands for request to generate
 visualization ('true' or 'false', default is 'false'), (4) direction (optional) – stands for algorithm visualization mode
 ('struc', 'sub', 'prod' or 'both') in order to visualize structure (struc) of reconstructions without FBA data or
@@ -48,9 +49,9 @@ visualize substrates (sub), products (prod) or substrates and products (both) fo
 FBA data (default is 'struc'), (5) initialMet (optional) – stands for metabolite of interest to be used by function
 draw by met (default is empty), (6) excludeMets (optional) – stands for a list of the excludable metabolites as
 a filter and (7) flux (optional) – stands for vector of FBA data of reactions flux distribution (default is vector
-of x characters if flux is not calculated). The last 5 arguments are optional and can be unset. The function
-draw_by_rxn has 2 outputs: (1) involvedMets – stands for a list of involved metabolites depending on the input
-arguments and (2) deadEnds – stands for a list of dead-end metabolites depending on the input arguments. The
+of x characters if flux is not calculated). 
+
+The last 5 arguments are optional and can be unset. The functiondraw_by_rxn has 2 outputs: (1) involvedMets – stands for a list of involved metabolites depending on the input arguments and (2) deadEnds – stands for a list of dead-end metabolites depending on the input arguments. The
 function draw_by_met has 7 input arguments: (1) model – stands for stoichiometric reconstruction or model with
 constraints, (2) metAbbr – stands for an input for metabolite of interest for analysis, (3) drawMap (optional) –
 stands for request to generate visualization ('true' or 'false', default is 'false'), (4) radius – stands for distance

@@ -66,3 +66,15 @@ metabolites depending on the input arguments and (3) deadEnds – stands for ali
 depending on the input arguments.
 
  
+
+​
+Citation
+
+Kostromins A., Stalidzans E. (2012) Paint4Net: COBRA Toolbox extension for visualization of stoichiometric models of metabolism. Biosystems, 109(2), pp. 233–239. https://doi.org/10.1016/j.biosystems.2012.03.002
+
+
+​
+Heirendt, L., Arreckx, S., Pfau, T., Mendoza, S.N., Richelle, A., Heinken, A., Haraldsdottir, H.S., Keating, S.M., Vlasov, V., Wachowiak, J., Magnusdottir, S., Ng, C.Y., Preciat, G., Zagare, A., Chan, S.H.J., Aurich, M.K., Clancy, C.M., Modamio, J., Sauls, J.T., Noronha, A., Bordbar, A., Cousins, B., Assal, D.C. El, Ghaderi, S., Ahookhosh, M., Guebila, M. Ben, Apaolaza, I., Kostromins, A., Le, H.M., Ma, D., Sun, Y., Valcarcel, L. V., Wang, L., Yurkovich, J.T., Vuong, P.T., Assal, L.P. El, Hinton, S., Bryant, W.A., Artacho, F.J.A., Planes, F.J., Stalidzans, E., Maass, A., Vempala, S., Hucka, M., Saunders, M.A., Maranas, C.D., Lewis, N.E., Sauter, T., Palsson, B.Ø., Thiele, I., Fleming, R.M. (2019) Creation and analysis of biochemical constraint-based models: the COBRA Toolbox v3.0. Nature Protocols, 14, pp. 639–702. https://doi.org/10.1038/s41596-018-0098-2
+
+​
+
